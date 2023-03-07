@@ -1,0 +1,20 @@
+.card-content{
+    @apply block p-3 shadow-lg h-24 bg-gray-200 rounded-lg mt-4 bg-opacity-50
+}
+
+.btn-group-left{
+    @apply border border-gray-700 px-3 py-1 text-sm font-medium text-center outline-2 text-gray-900 bg-gray-100 rounded-l-lg hover:bg-gray-300 focus:ring-4 focus:outline-none focus:ring-gray-300
+}
+
+.btn-group-right{
+    @apply border border-gray-700 px-3 py-1 text-sm font-medium text-center text-gray-900 bg-green-400 bg-opacity-50 rounded-r-lg hover:bg-green-500 hover:bg-opacity-50 focus:ring-4 focus:outline-none focus:ring-green-300
+}
+
+/* skeleton */
+.btn-group-left-skeleton{
+    @apply border border-gray-700 px-3 py-2 text-sm font-medium text-center outline-2 text-gray-900 bg-gray-100 rounded-l-lg focus:ring-4 focus:outline-none 
+}
+
+.btn-group-right-skeleton{
+    @apply border border-gray-700 px-3 py-2 text-sm font-medium text-center text-gray-900 bg-gray-100 rounded-r-lg focus:ring-4 focus:outline-none 
+}

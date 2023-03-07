@@ -1,0 +1,7 @@
+.background{
+    @apply bg-white rounded-md shadow-md px-4 py-10 lg:px-6 lg:w-1/2;
+}
+
+.todo-title{
+    @apply block p-3 shadow-lg box-shadow: h-24 bg-gray-300 rounded-lg w-auto mt-2
+}
